@@ -1,0 +1,10 @@
+def add(a,b):
+    return a+b
+def mul(a,b):
+    return a*b
+def sub(a,b):
+    return a-b
+def div(a,b):
+    return a/b
+def numerical_aperture(v,lamda,a):
+    return (v*lamda)/(2*math.pi*a)
